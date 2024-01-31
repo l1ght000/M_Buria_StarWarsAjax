@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>StarWars API</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script defer src="js/main.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.10.4/dist/gsap.min.js"></script>
+</head>
+<body>
+<div id="character-box" class="nav-bar">
+    <h2 class="title">Star Wars Characters</h2>
+    <!-- Characters will be listed here -->
+</div>
+<div class="content-area grid-con col-span-full">
+  <div id="loading-icon" class="loading-hidden center-content">
+  </div>
+  <div id="movie-poster" class="movie-poster"></div> 
+
+  <div class="details-container">
+      <div id="character-image"></div> 
+      <div id="movie-details-con"></div> 
+  </div>
+</div>
+</div>
+</body>
+</html>
