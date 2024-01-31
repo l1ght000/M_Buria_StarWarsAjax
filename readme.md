@@ -1,4 +1,4 @@
-# Star Wars Character Filmography
+# Star Wars AJAX
 
 ## Description
 This project is a Star Wars character filmography page that allows users to find out which films a character has appeared in. It utilizes the Star Wars API (SWAPI) to fetch data asynchronously using AJAX.
@@ -10,7 +10,7 @@ This project is a Star Wars character filmography page that allows users to find
 
 ## Technologies Used
 - HTML/CSS for page structure and styling.
-- JavaScript (ES6) for dynamic content and API integration.
+- JavaScript for dynamic content and API integration.
 - GSAP for smooth animations.
 - SWAPI for fetching character and film data.
 
@@ -23,7 +23,7 @@ This project is a Star Wars character filmography page that allows users to find
 The Star Wars API (SWAPI) is a free-to-use API that provides data about the Star Wars universe. No authentication is required. API documentation can be found at: https://swapi.dev/documentation
 
 ## Credits
-Star Wars Character Filmography was created by [Your Name].
+Star Wars Character Filmography was created by Buria Mykyta.
 Special thanks to SWAPI for providing the data used in this project.
 
 ## Disclaimer
